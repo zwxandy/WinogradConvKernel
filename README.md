@@ -10,7 +10,7 @@ Version a) can significantly accelerate the computation process compared with ve
 
 ## Command for Testing
 ```bash
-python conv_test.py
+python run_conv.py
 ```
 The code will run with regular convolution, Winograd w/o parallelization, and Winograd w/ parallelization.
 We can set `m = 2` or `m=4` to change the output tile size.
