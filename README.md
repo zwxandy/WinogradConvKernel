@@ -16,6 +16,6 @@ The code will run with regular convolution, Winograd w/o parallelization, and Wi
 We can set `m = 2` or `m=4` to change the output tile size.
 
 ## Extension
-Based on the Winograd kernel, we can easliy apply it to neural networks, e.g., ResNet by replacing the class `nn.Conv2d` to `Winograd()`.
-Remember to modify the test code to make the weight be trainable using `nn.Parameter()` in `__init__`.
+Based on the Winograd kernel, we can easliy apply it to neural networks, e.g., ResNet by replacing the class `nn.Conv2d` with `Winograd()`.
+It is worth noting that for Winograd training, remember to modify the test code to make the weight be trainable using `nn.Parameter()` in `__init__`.
 
