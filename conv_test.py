@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.nn.init as init
 from winograd_kernel import Winograd
-from winograd_kernel_test_origin import Winograd
-from winograd_kernel_test_parall import Winograd_Parall
+from winograd_kernel_origin import Winograd
+from winograd_kernel_parall import Winograd_Parall
 import time
 
 
